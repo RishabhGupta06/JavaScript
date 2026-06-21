@@ -216,11 +216,14 @@
     
     // let user = 'Rishabh Gupta';
     // let letter = [...user];
+
+    // console.log(letter);
     // let leee = [user];
     // console.log(leee);
     // let letter2 = [...user].join("-");
     // console.log(letter);
     // let number = [1,2,3,4,5];
+    // console.log(...number);
     // let maxi = Math.max(...number);
     // // let maxi = Math.max(number); this will not work as it will give error
     // console.log(maxi)
@@ -645,4 +648,9 @@
 
 // topic - sort()
 
-n
+
+// topic - data object
+
+
+// topic clouser
+//topic settime out and cleareTimeout
