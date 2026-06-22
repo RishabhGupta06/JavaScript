@@ -156,7 +156,7 @@
 // loop
 
 // for(let i =0;i<3;i++){
-    // continue; break;
+// continue; break;
 // }
 
 
@@ -201,37 +201,37 @@
 // let idx = str.indexOf('mango');
 // // trives using for loop
 // for(let a of str){
-    //     console.log(a);
-    // }
-    // // str.sort().reverse();
-    // console.log(str[2]);
-    // console.log(str);
-    
-    
-    
-    
-    
-    
-    // spread operator = ... 
-    
-    // let user = 'Rishabh Gupta';
-    // let letter = [...user];
+//     console.log(a);
+// }
+// // str.sort().reverse();
+// console.log(str[2]);
+// console.log(str);
 
-    // console.log(letter);
-    // let leee = [user];
-    // console.log(leee);
-    // let letter2 = [...user].join("-");
-    // console.log(letter);
-    // let number = [1,2,3,4,5];
-    // console.log(...number);
-    // let maxi = Math.max(...number);
-    // // let maxi = Math.max(number); this will not work as it will give error
-    // console.log(maxi)
-    // let str = ['app','software','application'];
-    // let shalow = [...str]; // shalow copy
-    
-    
-    // rest parameter opposite to spread operator
+
+
+
+
+
+// spread operator = ... 
+
+// let user = 'Rishabh Gupta';
+// let letter = [...user];
+
+// console.log(letter);
+// let leee = [user];
+// console.log(leee);
+// let letter2 = [...user].join("-");
+// console.log(letter);
+// let number = [1,2,3,4,5];
+// console.log(...number);
+// let maxi = Math.max(...number);
+// // let maxi = Math.max(number); this will not work as it will give error
+// console.log(maxi)
+// let str = ['app','software','application'];
+// let shalow = [...str]; // shalow copy
+
+
+// rest parameter opposite to spread operator
 
 
 
@@ -340,74 +340,74 @@
 
 
 // function expression a way to define function as value or variables
- 
-    // passing as value
-    // const num = [1,2,3,4,5,6];
-    // let sqr = num.map(function(ele){
-    //     return Math.pow(ele,2);
-    // });
-    // console.log(sqr);
+
+// passing as value
+// const num = [1,2,3,4,5,6];
+// let sqr = num.map(function(ele){
+//     return Math.pow(ele,2);
+// });
+// console.log(sqr);
 
 
-    // storing as variable
-    // let dumfun = function(){
-    //     console.log("this is how we declare a fuction as a variable");
-    // }
-    // dumfun();
+// storing as variable
+// let dumfun = function(){
+//     console.log("this is how we declare a fuction as a variable");
+// }
+// dumfun();
 
 
-    // setTimeout(callback, timeout);
-    // setTimeout(dumfun,3000);
-    // passing as value
-    // setTimeout(function() {
-    //     console.log("In javascript it is legal to pass the entire function as an arrgument ")
-    // }, 4000);
-
-
-
-    // Arrow function 
-
-    // const hello = (name,age) => {console.log(`Hello ${name}`)
-    //         console.log(`You are ${age} years old`)};
-
-    // hello("Rishabh",13);
-    //  // if we have to multiple statement we use curly braces
-    // setTimeout(() =>  
-    //     console.log("after 3 sec")
-    // , 3000);
-
-
-    // const num = [1,2,3,4,5];
-    // let sqr = num.map((ele) => Math.pow(ele,2));
-    // let cube = num.map((ele) => Math.pow(ele,3));
-    // let evennumb = num.filter((ele) => ele%2 ===0 ); // return statement is not needed if we have one line of code
+// setTimeout(callback, timeout);
+// setTimeout(dumfun,3000);
+// passing as value
+// setTimeout(function() {
+//     console.log("In javascript it is legal to pass the entire function as an arrgument ")
+// }, 4000);
 
 
 
-    // object In JavaScript, an object is a collection of 
-    // key–value pairs, where the keys are called properties
-    //  (or methods if the value is a function). 
-    // Objects are one of the most important data types because
-    //  they let you group related data and behavior together.
+// Arrow function 
+
+// const hello = (name,age) => {console.log(`Hello ${name}`)
+//         console.log(`You are ${age} years old`)};
+
+// hello("Rishabh",13);
+//  // if we have to multiple statement we use curly braces
+// setTimeout(() =>  
+//     console.log("after 3 sec")
+// , 3000);
 
 
-    // const person = {
-    // //  key: value
-    //     firstname: "Rishabh",
-    //     lastname: "Squarepants",
-    //     age: 30,
-    //     isEmployed: true,
-    //     sayhello: function(){console.log("hi their")},
-    // }
-
-    // console.log(person.firstname);
-    // person.sayhello();
+// const num = [1,2,3,4,5];
+// let sqr = num.map((ele) => Math.pow(ele,2));
+// let cube = num.map((ele) => Math.pow(ele,3));
+// let evennumb = num.filter((ele) => ele%2 ===0 ); // return statement is not needed if we have one line of code
 
 
-    // this.name = person.name 
+
+// object In JavaScript, an object is a collection of 
+// key–value pairs, where the keys are called properties
+//  (or methods if the value is a function). 
+// Objects are one of the most important data types because
+//  they let you group related data and behavior together.
 
 
-    
+// const person = {
+// //  key: value
+//     firstname: "Rishabh",
+//     lastname: "Squarepants",
+//     age: 30,
+//     isEmployed: true,
+//     sayhello: function(){console.log("hi their")},
+// }
+
+// console.log(person.firstname);
+// person.sayhello();
+
+
+// this.name = person.name 
+
+
+
 // this will not work with arow function
 
 
@@ -526,7 +526,7 @@
 
 
 /// super
- 
+
 
 
 // class Animal {
@@ -743,29 +743,36 @@
 // });
 
 
-function walkDog(call){
-    setTimeout(() => {
-        console.log("You walk the dog");
-        call();
-    }, 1500);
+function walkDog() {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res("You walk the dog");
+
+        }, 1500);
+    })
 }
 
-function cleanKitchen(call){
-    setTimeout(()=>{
-        console.log("You clean the kitchen");
-        call();
-    },2500)
+function cleanKitchen() {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res("You clean the kitchen");
+        }, 2500)
+
+    })
 }
 
 
-function takeOutTrash(call){
-    setTimeout(()=>{
-        console.log("You taken the trash");
-        call();
-    },500)
+function takeOutTrash() {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res("You taken the trash");
+        }, 500)
+
+    })
 }
-walkDog(() => {
-  cleanKitchen(() => {
-    takeOutTrash(() => console.log("You finished all the chores!"));
-  });
-});
+
+
+walkDog().then(value => {console.log(value);
+    return cleanKitchen()}).then(value =>{console.log(value); 
+        return takeOutTrash()}).then(value=> {console.log(value);
+    console.log("You have done")});
