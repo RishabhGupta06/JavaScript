@@ -657,4 +657,115 @@
 
 
 
-import {pi,getvalcir,getvalar} from './mathutil.js';
+// import {pi,getcir,getArea} from './mathutil.js';
+
+// console.log(pi);
+// const c = getcir(10);
+// console.log(c);
+// const d = getArea(1);
+// console.log(d);
+
+
+// topic synchronous and asynchrous
+// console.log("Task 1");
+// console.log("Task 2");
+// console.log("Task 3");
+
+
+// console.log("Task 1");
+
+// setTimeout(() => {
+//   console.log("Task 2 (after 2 seconds)");
+// }, 2000);
+
+// console.log("Task 3");
+
+
+
+// topic error
+
+// try {
+//   const dividend = Number(window.prompt("Enter a dividend: "));
+//   const divisor = Number(window.prompt("Enter a divisor: "));
+
+//   // Check if inputs are valid numbers
+//   if (isNaN(dividend) || isNaN(divisor)) {
+//     throw new Error("Values must be a number");
+//   }
+
+//   // Prevent division by zero
+//   if (divisor === 0) {
+//     throw new Error("You can't divide by zero!");
+//   }
+
+//   const result = dividend / divisor;
+//   console.log("Result:", result);
+
+// } catch (error) {
+//   console.error("Error caught:", error.message);
+// }
+
+// console.log("You have reached the end!");
+
+
+
+
+// topic promise
+
+// way make it syncronise
+
+
+// function walkDog(call){
+//     setTimeout(() => {
+//         console.log("You walk the dog");
+//         call();
+//     }, 1500);
+// }
+
+// function cleanKitchen(call){
+//     setTimeout(()=>{
+//         console.log("You clean the kitchen");
+//         call();
+//     },2500)
+// }
+
+
+// function takeOutTrash(call){
+//     setTimeout(()=>{
+//         console.log("You taken the trash");
+//         call();
+//     },500)
+// }
+// walkDog(() => {
+//   cleanKitchen(() => {
+//     takeOutTrash(() => console.log("You finished all the chores!"));
+//   });
+// });
+
+
+function walkDog(call){
+    setTimeout(() => {
+        console.log("You walk the dog");
+        call();
+    }, 1500);
+}
+
+function cleanKitchen(call){
+    setTimeout(()=>{
+        console.log("You clean the kitchen");
+        call();
+    },2500)
+}
+
+
+function takeOutTrash(call){
+    setTimeout(()=>{
+        console.log("You taken the trash");
+        call();
+    },500)
+}
+walkDog(() => {
+  cleanKitchen(() => {
+    takeOutTrash(() => console.log("You finished all the chores!"));
+  });
+});
