@@ -654,3 +654,7 @@
 
 // topic clouser
 //topic settime out and cleareTimeout
+
+
+
+import {pi,getvalcir,getvalar} from './mathutil.js';
