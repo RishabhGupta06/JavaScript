@@ -776,3 +776,10 @@ walkDog().then(value => {console.log(value);
     return cleanKitchen()}).then(value =>{console.log(value); 
         return takeOutTrash()}).then(value=> {console.log(value);
     console.log("You have done")});
+
+
+    // topic Async and Await
+
+    // topic JSON
+
+    // topic fetching data from API
